@@ -10,10 +10,8 @@ import (
 	"strings"
 
 	"github.com/alcortesm/tgz"
-	"gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/devtron-labs/go-git/plumbing"
 	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
 )
 
 var RootFolder = ""
